@@ -79,12 +79,12 @@ Add Repo:
 nano /etc/pacman.conf
 ```
 
-Then add the repo below to your system But generally it alredy exist, you can skip this:
+Then add the repo below to your system:
 
 ```
 Server = https://mirror.cachyos.org/repo/$arch
 ```
-If you have finished adding or it alredy exist, you can exit nano with:
+If you have finished adding or it, you can exit nano with:
 - **CTRL** + **x** and pres **y** then **Enter** to save
 
 Then update your system:
