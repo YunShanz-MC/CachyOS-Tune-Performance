@@ -1,4 +1,51 @@
+<div align="center">
+
 # CachyOS Ultimate Performance Setup
+
+[![GitHub stars](https://img.shields.io/github/stars/YunShanz-MC/CachyOS-Tune-Performance?style=social)](https://github.com/YunShanz-MC/CachyOS-Tune-Performance/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/YunShanz-MC/CachyOS-Tune-Performance)](https://github.com/YunShanz-MC/CachyOS-Tune-Performance/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CachyOS](https://img.shields.io/badge/Compatible-CachyOS-brightgreen)](https://cachyos.org)
+
+**Automated optimization script for CachyOS gaming performance**  
+Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamemode, MangoHud) for low-end hardware.
+
+</div>
+
+<br>
+
+## ☕ Support This Project
+
+<div align="center">
+
+**If this script boosted your FPS or made CachyOS smoother, please consider supporting the development!** 💖
+
+### Quick Support Options
+<a href="https://www.buymeacoffee.com/YunShanzMC">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.svg" alt="Buy Me A Coffee" style="height: 50px !important; width: 200px !important;" >
+</a>
+
+[![GitHub Sponsors](https://img.shields.io/badge/sponsor-181717?style=for-the-badge&logo=github&label=GitHub)](https://github.com/sponsors/YunShanz-MC)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/yunshanzmc)
+
+**Why Donate?**
+  
+  🔧 Development time for new features
+  
+  🛠️ Bug fixes and community support
+  
+  ☁️ Server costs for CI/CD and package mirrors
+
+  🖥️ help to upgrade my low-end hardware (Acer ES1-432, Intel HD 500)
+
+**All contributions are voluntary and help keep this project free for everyone!** 🎮
+
+</div>
+
+---
+---
+
+## ✅ Quick Start
 
 ## 📌 Features
 - Installs CachyOS BORE kernel and sets it as default  
