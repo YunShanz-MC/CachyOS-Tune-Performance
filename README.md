@@ -23,8 +23,6 @@ Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamem
 ### Quick Support Options
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black&style=flat)](https://www.buymeacoffee.com/YunShanzMC)
 
-[![GitHub Sponsors](https://img.shields.io/badge/sponsor-181717?style=for-the-badge&logo=github&label=GitHub)](https://github.com/sponsors/YunShanz-MC)
-
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/yunshanzmc)
 
 **Why Donate?**
