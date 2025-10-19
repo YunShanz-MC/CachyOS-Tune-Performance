@@ -21,11 +21,10 @@ Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamem
 **If this script boosted your FPS or made CachyOS smoother, please consider supporting the development!** 💖
 
 ### Quick Support Options
-<a href="https://www.buymeacoffee.com/YunShanzMC" target="_blank">
-  <img src="assets/images/buy-me-a-coffee.png" alt="Buy Me A Coffee" style="height: 50px !important; width: 200px !important; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" >
-</a>
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black&style=flat)](https://www.buymeacoffee.com/YunShanzMC)
 
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-181717?style=for-the-badge&logo=github&label=GitHub)](https://github.com/sponsors/YunShanz-MC)
+
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-yellow?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/yunshanzmc)
 
 **Why Donate?**
