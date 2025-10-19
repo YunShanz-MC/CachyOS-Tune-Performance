@@ -71,12 +71,12 @@ su -
 ```
 
 ### Enable CachyOS Kernel Repository
-Make sure the CachyOS kernel repository is enabled so the **`linux-cachyos-bore`** package is available. Add to **`/etc/pacman.conf`**:
+Make sure the CachyOS kernel repository is enabled so the **`linux-cachyos-bore`** package is available. Add to **`/etc/pacman.d/mirrorlist`**:
 
 Add Repo:
 
 ```bash
-nano /etc/pacman.conf
+nano /etc/pacman.d/mirrorlist
 ```
 
 Then add the repo below to your system:
