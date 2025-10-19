@@ -1,34 +1,7 @@
 # CachyOS Ultimate Performance Setup
 
-## ✅ Quick Start
-
-### Option 1: Direct Download via Curl (Recommended)
-To get started quickly, copy and run the following command in your terminal:
-
-```bash
-curl -O https://raw.githubusercontent.com/YunShanz-MC/CachyOS-Tune-Performance/main/cachyos-tune.sh && chmod +x cachyos-tune.sh && ./cachyos-tune.sh
-```
-
-Press **Enter** for dry-run mode (preview only), or type **n** for live mode (apply changes).
-
-**Note:** Make sure `curl` is installed (**`sudo pacman -S curl`** if needed). This downloads the main script directly without cloning the entire repository.
-
-### Option 2: Clone Full Repository (For Development/Editing)
-If you want to view or modify the source files:
-
-```bash
-git clone https://github.com/YunShanz-MC/CachyOS-Tune-Performance.git
-cd CachyOS-Tune-Performance
-chmod +x cachyos-tune.sh
-./cachyos-tune.sh
-```
-
-**Prerequisites:** Install `git` if not available (`sudo pacman -S git`).
-
----
-
-## ✅ Features
-- Installs CachyOS BORE kernel (if available) and sets it as default  
+## 📌 Features
+- Installs CachyOS BORE kernel and sets it as default  
 - Preflight check before removing non-BORE kernels  
 - System tuning:
   - sysctl  
@@ -44,9 +17,7 @@ chmod +x cachyos-tune.sh
 - Auto-detects Bash/Fish and configures accordingly  
 - KDE tweaks only when Plasma is detected  
 
----
-
-## ✅ Requirements
+## 📌 Requirements
 
 ### Run as Real Root
 Copy and execute:
@@ -56,12 +27,21 @@ su -
 ```
 
 ### Enable CachyOS Kernel Repository
-Make sure the CachyOS kernel repository is enabled so the `linux-cachyos-bore` package is available. Add to `/etc/pacman.conf`:
+Make sure the CachyOS kernel repository is enabled so the **`linux-cachyos-bore`** package is available. Add to **`/etc/pacman.conf`**:
+
+Add Repo:
+
+```bash
+nano /etc/pacman.conf
+```
+
+Then add the repo below to your system But generally it alredy exist, you can skip this:
 
 ```
-[cachyos]
 Server = https://mirror.cachyos.org/repo/$arch
 ```
+If you have finished adding or it alredy exist, you can exit nano with:
+- **CTRL** + **x** and pres **y** then **Enter** to save
 
 Then update your system:
 
@@ -70,12 +50,37 @@ sudo pacman -Syu
 ```
 
 **Additional Requirements:**
-- CachyOS or Arch Linux-based system
+- CachyOS Arch Linux-based system
 - Internet connection for package downloads
-- At least 4GB RAM (optimized for low-end systems like Intel HD Graphics 500)
+- At least 4GB RAM (optimized for low-end systems)
 - Backup your system before running in live mode (recommended: Timeshift or BTRFS snapshot)
 
 ---
+
+**Note:** Make sure **`curl`** is installed (**`sudo pacman -S curl`** if needed). This downloads the main script directly without cloning the entire repository.
+
+## ✅ Quick Start
+
+### Option 1: Direct Download via Curl (Recommended)
+To get started quickly, copy and run the following command in your terminal:
+
+```bash
+curl -O https://raw.githubusercontent.com/YunShanz-MC/CachyOS-Tune-Performance/main/cachyos-tune.sh && chmod +x cachyos-tune.sh && ./cachyos-tune.sh
+```
+
+Press **Enter** for dry-run mode (preview only), or type **n** for live mode (apply changes).
+
+### Option 2: Clone Full Repository (For Development/Editing)
+If you want to view or modify the source files:
+
+**Prerequisites:** Install **`git`** if not available (**`sudo pacman -S git`**).
+
+```bash
+git clone https://github.com/YunShanz-MC/CachyOS-Tune-Performance.git
+cd CachyOS-Tune-Performance
+chmod +x cachyos-tune.sh
+./cachyos-tune.sh
+```
 
 ## ✅ After Install
 
@@ -93,7 +98,7 @@ fish -c 'source ~/.config/fish/config.fish'
 
 ---
 
-## ✅ Game Helper (`game`)
+## 🎮 Game Helper (`game`)
 
 ### Launch Steam with Gamemode + MangoHud
 Copy and execute:
@@ -131,7 +136,7 @@ For individual games:
 
 ---
 
-## ✅ Verify
+## ☑️ Verify
 
 ### Check Kernel
 Copy and run:
@@ -182,7 +187,7 @@ echo "=== TLP ===" && tlp-stat -s | grep "TLP" && echo "✓ Running" || echo "�
 
 ---
 
-## ✅ Troubleshooting
+## ℹ️ Troubleshooting
 - **BORE kernel not found** → Enable CachyOS kernel repo in `/etc/pacman.conf` and run `sudo pacman -Syu linux-cachyos-bore`, then rerun script  
 - **GPU shows generic** → Ensure `pciutils` is installed (`sudo pacman -S pciutils`, auto-installed by script), then rerun  
 - **Gamemode/MangoHud missing** → Run the script in live mode again or manually install: `sudo pacman -S gamemode mangohud`  
@@ -193,7 +198,7 @@ echo "=== TLP ===" && tlp-stat -s | grep "TLP" && echo "✓ Running" || echo "�
 
 ---
 
-## ✅ Logs
+## 📝 Logs
 
 The log file is located at:
 
@@ -201,25 +206,11 @@ The log file is located at:
 ~/Desktop/cachyos-ultimate-setup.log
 ```
 
-### View Logs
+### 🔎 View Logs
 Copy and run:
 
 ```bash
 cat ~/Desktop/cachyos-ultimate-setup.log
-```
-
-### Monitor Logs in Real-time
-Copy and run (useful during script execution):
-
-```bash
-tail -f ~/Desktop/cachyos-ultimate-setup.log
-```
-
-### Clear Logs (After Successful Install)
-Copy and run:
-
-```bash
-rm ~/Desktop/cachyos-ultimate-setup.log
 ```
 
 ---
@@ -227,9 +218,7 @@ rm ~/Desktop/cachyos-ultimate-setup.log
 ## 📋 Additional Notes
 
 - **Safety First:** Always backup important data before running in live mode
-- **Hardware Compatibility:** Optimized for low-end systems (Intel HD Graphics 500, 4GB+ RAM)
 - **Performance Gains:** Expect 10-30% improvement in gaming workloads with BORE kernel and optimizations
 - **Support:** Report issues at [GitHub Issues](https://github.com/YunShanz-MC/CachyOS-Tune-Performance/issues)
 - **License:** MIT License - Free to use, modify, and distribute
-
-**Tested on:** CachyOS with kernel 6.17.1-1-cachyos-bore, Acer Aspire ES1-432 (Intel HD Graphics 500)
+- **Tested on:** Acer Aspire ES1-432 (Intel HD Graphics 500)
