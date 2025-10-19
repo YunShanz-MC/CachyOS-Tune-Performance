@@ -1,16 +1,15 @@
 # CachyOS Ultimate Performance Setup
 
-## Quick Start
+## ✅ Quick Start
 \`\`\`bash
 ./cachyos-tune.sh
 \`\`\`
-
 Press **Enter** for dry-run mode, or type **n** for live mode.
 
 ---
 
-## Features
-- Installs CachyOS BORE kernel (if available in repo) and sets it as default  
+## ✅ Features
+- Installs CachyOS BORE kernel (if available) and sets it as default  
 - Preflight check before removing non-BORE kernels  
 - System tuning:
   - sysctl  
@@ -22,23 +21,23 @@ Press **Enter** for dry-run mode, or type **n** for live mode.
 - Gaming stack:
   - Gamemode (with valid config)  
   - MangoHud  
-  - `game` helper command  
+  - \`game\` helper command  
 - Auto-detects Bash/Fish and configures accordingly  
 - KDE tweaks only when Plasma is detected  
 
 ---
 
-## Requirements
+## ✅ Requirements
 Run as real root:
 \`\`\`bash
 su -
 \`\`\`
 
-Make sure the CachyOS kernel repository is enabled so the `linux-cachyos-bore` package is available.
+Make sure the CachyOS kernel repository is enabled so the \`linux-cachyos-bore\` package is available.
 
 ---
 
-## After Install
+## ✅ After Install
 Reboot to apply the kernel and services.
 
 Reload Fish config if needed:
@@ -48,7 +47,7 @@ fish -c 'source ~/.config/fish/config.fish'
 
 ---
 
-## Game Helper (`game`)
+## ✅ Game Helper (\`game\`)
 
 Launch Steam with Gamemode + MangoHud:
 \`\`\`bash
@@ -70,11 +69,11 @@ gamemoderun mangohud %command%
 - Enable **Feral Gamemode** and **MangoHud**
 
 Per-game:
-- Right-click → **Configure → System Options** → enable both
+- Right-click game → **Configure → System Options** → enable both
 
 ---
 
-## Verify
+## ✅ Verify
 
 Check kernel:
 \`\`\`bash
@@ -99,15 +98,15 @@ tlp-stat -s
 
 ---
 
-## Troubleshooting
+## ✅ Troubleshooting
 - BORE not found → enable CachyOS kernel repo and rerun  
-- GPU shows generic → ensure `pciutils` is installed (auto-installed), then rerun  
+- GPU shows generic → ensure \`pciutils\` is installed (auto-installed), then rerun  
 - Gamemode/MangoHud missing → run the script in live mode again  
 - Non-KDE desktops → KDE tweaks are skipped automatically (KDE recommended)
 
 ---
 
-## Logs
+## ✅ Logs
 \`\`\`
 ~/Desktop/cachyos-ultimate-setup.log
 \`\`\`
