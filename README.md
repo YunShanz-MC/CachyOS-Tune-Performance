@@ -83,7 +83,7 @@ sudo pacman -Syu
 
 ---
 
-**Note:** Make sure **`curl`** is installed (**`sudo pacman -S curl`** if needed). This downloads the main script directly without cloning the entire repository.
+**Note:** Make sure **`curl`** is installed (**`sudo pacman -S curl`**) if needed. This downloads the main script directly without cloning the entire repository.
 
 ## ✅ Quick Start
 
