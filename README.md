@@ -69,24 +69,6 @@ Copy and execute:
 ```bash
 su -
 ```
-
-### Enable CachyOS Kernel Repository
-Make sure the CachyOS kernel repository is enabled so the **`linux-cachyos-bore`** package is available. Add to **`/etc/pacman.d/mirrorlist`**:
-
-Add Repo:
-
-```bash
-nano /etc/pacman.d/mirrorlist
-```
-
-Then add the repo below to your system:
-
-```
-Server = https://mirror.cachyos.org/repo/$arch
-```
-If you have finished adding or it, you can exit nano with:
-- **CTRL** + **x** and pres **y** then **Enter** to save
-
 Then update your system:
 
 ```bash
