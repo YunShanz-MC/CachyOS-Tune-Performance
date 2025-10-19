@@ -22,7 +22,7 @@ Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamem
 
 ### Quick Support Options
 <a href="https://www.buymeacoffee.com/YunShanzMC" target="_blank">
-  <img src="assets/images/buy-me-a-coffee.svg" alt="Buy Me A Coffee" style="height: 50px !important; width: 200px !important; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" >
+  <img src="assets/images/buy-me-a-coffee.png" alt="Buy Me A Coffee" style="height: 50px !important; width: 200px !important; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" >
 </a>
 
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-181717?style=for-the-badge&logo=github&label=GitHub)](https://github.com/sponsors/YunShanz-MC)
