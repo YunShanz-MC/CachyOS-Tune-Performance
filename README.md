@@ -57,7 +57,7 @@ Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamem
 - Gaming stack:
   - Gamemode (with valid config)  
   - MangoHud  
-  - `game` helper command  
+  - `gamemoderun` helper command  
 - Auto-detects Bash/Fish and configures accordingly  
 - KDE tweaks only when Plasma is detected  
 
@@ -131,19 +131,19 @@ fish -c 'source ~/.config/fish/config.fish'
 Copy and execute:
 
 ```bash
-game steam
+gamemoderun steam
 ```
 
 ### Run a Native Game
 Copy and execute (replace `/path/to/GameBin` with your actual game binary path):
 
 ```bash
-game /path/to/GameBin
+gamemoderun /path/to/GameBin
 ```
 
 **Example for a specific game:**
 ```bash
-game /opt/minecraft/MinecraftLauncher
+gamemoderun /opt/minecraft/MinecraftLauncher
 ```
 
 ### Steam (Proton) Launch Options
