@@ -7,8 +7,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CachyOS](https://img.shields.io/badge/Compatible-CachyOS-brightgreen)](https://cachyos.org)
 
-**Automated optimization script for CachyOS gaming performance**  
-Installs BORE kernel, system tweaks (sysctl, zram, TLP), and gaming stack (Gamemode, MangoHud) for low-end hardware.
+**`Automated optimization script for CachyOS gaming performance`**  
+
+gaming stack (Gamemode, MangoHud) for low-end hardware.
+
+Installs BORE kernel, system tweaks (sysctl, zram, TLP)
 
 </div>
 
