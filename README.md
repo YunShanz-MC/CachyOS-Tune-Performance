@@ -76,9 +76,9 @@ sudo pacman -Syu
 ```
 
 **Additional Requirements:**
-- ⚠️**Only Supported Grub Bootloader Not Supported rEFIn etc**
-- CachyOS Arch Linux-based system
-- Internet connection for package downloads
+- ⚠️**Only Supported Grub Bootloader Not Supported rEFIn etc.**
+- CachyOS Arch Linux-based system.
+- Internet connection for package downloads.
 - At least 4GB RAM (optimized for low-end systems)
 - Backup your system before running in live mode (recommended: Timeshift or BTRFS snapshot)
 
