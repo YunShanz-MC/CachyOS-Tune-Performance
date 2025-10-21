@@ -76,6 +76,7 @@ sudo pacman -Syu
 ```
 
 **Additional Requirements:**
+- *⚠️Only Supported Grub Bootloader Not Supported rEFIn etc⚠️*
 - CachyOS Arch Linux-based system
 - Internet connection for package downloads
 - At least 4GB RAM (optimized for low-end systems)
@@ -171,13 +172,6 @@ Copy and run:
 uname -r | grep -i bore && echo "✓ BORE kernel running" || echo "✗ Not running BORE kernel"
 ```
 
-### Check Gamemode Service
-Copy and execute:
-
-```bash
-systemctl status gamemoded.service --no-pager
-```
-
 ### Test MangoHud
 Copy and run (should show FPS overlay):
 
@@ -206,7 +200,6 @@ Copy and run this comprehensive check:
 
 ```bash
 echo "=== Kernel ===" && uname -r | grep -i bore && echo "✓ BORE kernel" || echo "✗ Standard kernel"
-echo "=== Gamemode ===" && systemctl is-active gamemoded.service && echo "✓ Active" || echo "✗ Inactive"
 echo "=== ZRAM ===" && swapon --show | grep zram && echo "✓ Enabled" || echo "✗ Disabled"
 echo "=== TLP ===" && tlp-stat -s | grep "TLP" && echo "✓ Running" || echo "✗ Not running"
 ```
