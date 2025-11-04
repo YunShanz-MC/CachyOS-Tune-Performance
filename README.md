@@ -43,7 +43,6 @@ Installs BORE kernel, system tweaks (sysctl, zram, TLP)
 </div>
 
 ---
----
 
 ## ✅ Quick Start
 
